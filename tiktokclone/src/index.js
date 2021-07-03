@@ -2,17 +2,19 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { HashRouter, Route, Switch } from 'react-router-dom'
 import Home from './pages/Home'
+import Upload from './pages/Upload'
 
 import './index.css'
 
 const App = () => {
-  return
-  ;<HashRouter>
-    <Switch>
-      <Route path="/" component={home} />
-      <Route path="/upload" component={Upload} />
-    </Switch>
-  </HashRouter>
+  return (
+    <HashRouter>
+      <Switch>
+        <Route path="/upload" component={Upload} />
+        <Route path="/" component={Home} />
+      </Switch>
+    </HashRouter>
+  )
 }
 
 export default App
