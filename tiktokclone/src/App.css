@@ -2,6 +2,27 @@
   text-align: center;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
 .header {
   background-color: #ebb434;
+}
+
+.followers-column {
+  background-color: #63150c;
+  width: 500px;
+  height: 800px;
+}
+
+.feed {
+  width: 500px;
+}
+
+.suggested-box {
+  background-color: #3f54e0;
+  width: 400px;
+  height: 400px;
 }
