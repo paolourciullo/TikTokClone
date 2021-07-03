@@ -7,6 +7,10 @@
   flex-direction: row;
 }
 
+/* .header {
+  background-color: #ebb434;
+  border-radius: 3px;
+} */
 .header {
   background-color: #ebb434;
 }
